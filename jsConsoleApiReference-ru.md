@@ -3,8 +3,8 @@
 
 Варианты страницы с описанием на различных языках:
 
-* [английский](readme.md)
-* [русский](jsConsoleApiReference-ru.md) (эта страница).
+* [английский](https://github.com/spmbt/jsConsoleApiReference)
+* [русский](https://github.com/spmbt/jsConsoleApiReference/blob/master/jsConsoleApiReference-ru.md) (эта страница).
 
 
 <table><tr>
