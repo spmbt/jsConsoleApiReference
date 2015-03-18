@@ -4,7 +4,7 @@ Javascript console api reference is page with functions of console object and de
 Localizations of page:
 
 * [english](https://github.com/spmbt/jsConsoleApiReference) (this page)
-* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/master/jsConsoleApiReference-ru.md).
+* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/master/jsConsoleApiReference-ru.md)
 
 *(table formatting is under construction or contribute please)*
 

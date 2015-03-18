@@ -6,6 +6,8 @@
 * [english (английский)](https://github.com/spmbt/jsConsoleApiReference)
 * [russian (русский)](https://github.com/spmbt/jsConsoleApiReference/blob/master/jsConsoleApiReference-ru.md) (эта страница).
 
+Страница в формате Markdown не отображает всплывающие подсказки, поясняющие в коде HTML особенности реализаций методов в браузерах и средах. Полноценный пример описания сейчас можно увидеть в статье "[Справочник методов console в JS](http://habrahabr.ru/post/253359/)". В планах - получить HTML-страницу с необходимыми спойлерами и подсказками на основе той таблицы, которая сейчас имеется в коде этой страницы.
+
 ### Описание методов и список поддержки браузерами и платформами
 
 <table><tr>
@@ -164,7 +166,8 @@
 	<th><img src="img/iconNodejs.png"/><br> Node.js</th>
 	<th><img src="img/iconSafari.png"/><br> Safari</th>
 	<th><img src="img/iconOpera.png"/><br> <span class="abbr" title="ver. 12.15">Opera</span></th>
-</tr><tr><td colspan="8"><dl><dt><b>info(object[, object, ...])</b></dt><dd>Аналогична .log(), но оформляется в ином дизайне, для различения типов сообщений, например, для градации важности или для иного смыслового значения этой группы сообщений. Поддерживаются паттерны (описаны в <i>.log()</i>).</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>info(object[, object, ...])</b></dt><dd>Аналогична .log(), но оформляется в ином дизайне, для различения типов сообщений, например, для градации важности или для иного смыслового значения этой группы сообщений. Поддерживаются паттерны (описаны в <i>.log()</i>).. Пример различий для Firebug, Chrome, IE9:<br> 
+<img src="img/consoleMessages.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; &#10003;</font></td>
