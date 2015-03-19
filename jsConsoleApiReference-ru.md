@@ -39,7 +39,7 @@
 	<td><font class="suppNo"color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; &#10003;</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; &#10003;</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>count([object])</b></dt><dd>Выводит, сколько раз данный код был выполнен. Если необязательный аргумент object передан, то перед значением счётчика, выводится object.toString()**.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>count([object])</b></dt><dd>Каждый раз выводит количество проходов данной точки кода. Если есть аргумент <i>object</i>, то перед значением счётчика выводится object.toString().</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; &#10003;</font></td>
@@ -147,7 +147,7 @@ javascript<br>
 	<td><font class="suppNo"color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; &#10003;</font> <font class="gray" color=#999999>(5.1+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; &#10003;</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>groupEnd()</b></dt><dd>Обозначает конец группы.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>groupEnd()</b></dt><dd>Обозначает конец группы сообщений лога, которые способны сворачиваться-разворачиваться (кроме Firefox) вручную.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; &#10003;</font></td>
@@ -335,21 +335,22 @@ Columns - дополнительный массив названий колон�
 
 ## Ссылки
 
-* <a target="_blank" href="https://developer.chrome.com/devtools/docs/console-api">Console API Reference for Chrome</a>
-* <a target="_blank" href="https://getfirebug.com/wiki/index.php/Console_API">Console API in Firebug</a>
-* <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console">Console object (MDN)</a>
-* <a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/hh772169%28v=vs.85%29.aspx">Console object in IE10 (MSDN)</a>
-* <a target="_blank" href="https://nodejs.org/api/console.html">in Node.js v0.12.0</a>
-* <a target="_blank" href="https://developer.apple.com/library/mac/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Console/Console.html#//apple_ref/doc/uid/TP40007874-CH6-SW3">... in Safari Web Inspector Guide</a>
-* <a target="_blank" href="http://www.opera.com/dragonfly/documentation/console/">Console in Opera Dragonfly</a>
+* <a target="_blank" href="https://developer.chrome.com/devtools/docs/console-api">Console API Reference for Chrome</a>;
+* <a target="_blank" href="https://getfirebug.com/wiki/index.php/Console_API">Console API in Firebug</a>;
+* <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console">Console object (MDN)</a>;
+* <a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/hh772169%28v=vs.85%29.aspx">Console object in IE10 (MSDN)</a>;
+* <a target="_blank" href="https://nodejs.org/api/console.html">in Node.js v0.12.0</a>;
+* <a target="_blank" href="https://developer.apple.com/library/mac/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Console/Console.html#//apple_ref/doc/uid/TP40007874-CH6-SW3">... in Safari Web Inspector Guide</a>;
+* <a target="_blank" href="http://www.opera.com/dragonfly/documentation/console/">Console in Opera Dragonfly</a>.
 
 
-* <a target="_blank" href="http://habrahabr.ru/post/114483/">Используем console на полную</a>
-* <a target="_blank" href="http://habrahabr.ru/post/202394/">Продвинутая JavaScript отладка при помощи console.table()</a>
-* <a target="_blank" href="http://habrahabr.ru/post/109046/">Релиз Firebug 1.6</a> (console.table)
-* <a target="_blank" href="https://msdn.microsoft.com/library/gg589530">Using the F12 Tools Console to View Errors and Status</a> (MSDN)
-* <a target="_blank" href="https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/">... + much more – Firefox Developer Tools Episode 31</a> - console stack traces, styled console logs в Fx31.
+* <a target="_blank" href="http://habrahabr.ru/post/114483/">Используем console на полную</a>;
+* <a target="_blank" href="http://habrahabr.ru/post/202394/">Продвинутая JavaScript отладка при помощи console.table()</a>;
+* <a target="_blank" href="https://msdn.microsoft.com/library/gg589530">Using the F12 Tools Console to View Errors and Status</a> (MSDN);
+* <a target="_blank" href="https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/">... + much more – Firefox Developer Tools Episode 31</a> - console stack traces, styled console logs in Fx31;
+* <a target="_blank" href="http://stepansuvorov.com/blog/2013/04/%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D0%B8-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0/">Возможности консоли браузера</a> - 2013-04.
 
 
 * <a target="_blank" href="http://habrahabr.ru/post/188066/">FireBug* Console API</a> - описаны тонкости реализации, замеченные в тестах браузеров 2013 г;
-* <a target="_blank" href="http://habrahabr.ru/post/198372/">API консоли Javascript</a>
+* <a target="_blank" href="http://habrahabr.ru/post/198372/">API консоли Javascript</a>.
+
