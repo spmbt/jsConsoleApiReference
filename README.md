@@ -347,3 +347,8 @@ This Markdown Page does not display tooltips explaining some features of an appl
 * <a href="https://msdn.microsoft.com/library/gg589530">Using the F12 Tools Console to View Errors and Status</a> (MSDN)
 * <a href="http://habrahabr.ru/post/114483/">Using the console to the full</a> (ru)
 * <a href="http://habrahabr.ru/post/202394/">Javascript debugging with console.table()</a> (ru)
+* <a href="http://habrahabr.ru/post/114483/">Using the console to the full</a> (ru)
+* <a href="http://habrahabr.ru/post/202394/">Javascript debugging with console.table()</a> (ru)
+* <a target="_blank" href="http://habrahabr.ru/post/188066/">FireBug* Console API</a> - describes an detail of implementation, seen in tests of browsers 2013 г (ru);
+* <a target="_blank" href="http://habrahabr.ru/post/198372/">API of console in Javascript</a> (2013; ru).
+* ...
