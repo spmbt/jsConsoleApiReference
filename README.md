@@ -3,8 +3,8 @@ Javascript console api reference is page with functions of console object and de
 
 Localizations of page:
 
-* [english](https://github.com/spmbt/jsConsoleApiReference) (this page)
-* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/master/jsConsoleApiReference-ru.md)
+* [english](https://github.com/spmbt/jsConsoleApiReference) (this page); [HTML, is better](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm)
+* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md); &nbsp; &nbsp; [HTML, is better](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm)
 
 
 This Markdown Page does not display tooltips explaining some features of an application in browsers and environments. A full description is found [in HTML page](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm), which, moreover, can minimize some or all of the descriptions.
@@ -194,9 +194,9 @@ This Markdown Page does not display tooltips explaining some features of an appl
 <pre>
   console.log('Peter had %d %s', 10,'apples');
   console.log('Pi is equal to %f', Math.PI);
-  console.log('%cRichard %cOf %cYork%c Gave Battle In Vain',
-      'color:red;','font-size:16px;color:orange;','background:black;color:yellow;',
-      'font:normal;color:normal;background:normal;');
+  console.log('%cRichard %cOf %cYork%c Gave Battle In Vain','color:red;',
+    'font-size:16px;color:orange;','background:black;color:yellow;',
+    'font:normal;color:normal;background:normal;');
   console.log('body as DOM: %o',document.getElementsByTagName('body')[0]);
   console.log('object: %O',{a:1,b:2});
   console.log('body as Object: %O',document.getElementsByTagName('body')[0]);

@@ -3,8 +3,8 @@
 
 ### Варианты страницы с описанием на других языках:
 
-* [english (английский)](https://github.com/spmbt/jsConsoleApiReference)
-* [russian (русский)](https://github.com/spmbt/jsConsoleApiReference/blob/master/jsConsoleApiReference-ru.md) (эта страница).
+* [english (английский)](https://github.com/spmbt/jsConsoleApiReference) (*.md); &nbsp; &nbsp; [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm) (лучше *.md), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max)
+* [russian (русский)](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md) (эта страница; *.md); [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm) (лучше *.md), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max).
 
 Страница в формате Markdown не отображает всплывающие подсказки, поясняющие некоторые особенности реализаций методов в браузерах и средах. Полноценное описание находится [на HTML-странице](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm), которая, к тому же, может сворачивать все или часть описаний.
 
@@ -194,7 +194,8 @@
   console.log('У Пети было %d %s',10,'яблок');
   console.log('Пи равно %f',Math.PI);
   console.log('%cКаждый %cОхотник %cЖелает%c знать, где сидит фазан',
-      'color:red;','font-size:16px;color:orange;','background:black;color:yellow;',
+      'color:red;','font-size:16px;color:orange;',
+      'background:black;color:yellow;',
       'font:normal;color:normal;background:normal;');
   console.log('body as DOM: %o',document.getElementsByTagName('body')[0]);
   console.log('object: %O',{a:1,b:2});
