@@ -3,8 +3,8 @@
 
 ### Варианты страницы с описанием на других языках:
 
-* [english (английский)](https://github.com/spmbt/jsConsoleApiReference) (*.md); &nbsp; &nbsp; [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm) (лучше *.md), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max)
-* [russian (русский)](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md) (эта страница; *.md); [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm) (лучше *.md), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max).
+* [english (английский)](https://github.com/spmbt/jsConsoleApiReference) (`*`.md); &nbsp; &nbsp; [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm) (лучше), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max);
+* [russian (русский)](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md) (эта страница; `*`.md); [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm) (лучше), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max).
 
 Страница в формате Markdown не отображает всплывающие подсказки, поясняющие некоторые особенности реализаций методов в браузерах и средах. Полноценное описание находится [на HTML-странице](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm), которая, к тому же, может сворачивать все или часть описаний.
 

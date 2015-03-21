@@ -3,8 +3,8 @@ Javascript console api reference is page with functions of console object and de
 
 Localizations of page:
 
-* [english](https://github.com/spmbt/jsConsoleApiReference) (this page); [HTML, is better](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm)
-* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md); &nbsp; &nbsp; [HTML, is better](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm)
+* [english](https://github.com/spmbt/jsConsoleApiReference) (this page;`*`.md); [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm) (better), [collapsed](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max), [expanded](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max);
+* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md); &nbsp; &nbsp; [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm) (better), [collapsed](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max), [expanded](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max).
 
 
 This Markdown Page does not display tooltips explaining some features of an application in browsers and environments. A full description is found [in HTML page](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm), which, moreover, can minimize some or all of the descriptions.
