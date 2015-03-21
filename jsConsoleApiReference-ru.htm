@@ -1,21 +1,21 @@
-# jsConsoleApiReference
-Javascript console api reference is page with functions of console object and descriptions of browser and platform support of its.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>[ru] JS Console Api Reference</title>
+	<link rel="stylesheet" href="img/jsConsoleApiReference.css">
+	<script src="img/jsConsoleApiReference.js"></script>
+</head><body>
 
-Localizations of page:
-
-* [english](https://github.com/spmbt/jsConsoleApiReference) (this page)
-* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/master/jsConsoleApiReference-ru.md)
-
-
-This Markdown Page does not display tooltips explaining some features of an application in browsers and environments. A full description is found [in HTML page](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm), which, moreover, can minimize some or all of the descriptions.
-
-#### Abbreviations
-
-* <font class="suppNo" color=#ff6666>-&#8861;-</font> &mdash; method is not used in this environment;
-* &plusmn; &mdash; method is used, but implemented with features or partially;
-* `+` &mdash; full implementation.
-
-### Description of the methods and the list of browsers and platforms support
+<h3>Справочник методов объекта console в различных браузерах и средах исполнения Javascript</h3>
+<ul>
+	<li><a href="#expand_all" onclick="toggleAll();return!1">Развернуть описания полностью</a>;</li>
+	<li><a href="#collapse_max" onclick="collapseMax();return!1">Свернуть максимально</a>;</li>
+	<li><div class="jCAR divIn abbr" style="display: inline-block; width:48px; height: 16px; margin-top:2px; border: 1px solid #ccc">&nbsp;</div> &mdash; описание особенностей использования во всплывающей подсказке;</li>
+	<li><div class="jCAR divIn"><div class="jCAR suppNo divIn" style="display: inline-block; width:48px; height: 16px; margin-top:2px; line-height: 16px; border: 1px solid #ccc">-&#8861;-</div></div> &mdash; метод в данной среде не используется;</li>
+	<li><div class="jCAR divIn" style="display: inline-block; width:48px; height: 16px; margin-top:2px; border: 1px solid #ccc">&nbsp; &plusmn;</div> &mdash; метод используется, но реализован с особенностями;</li>
+	<li><div class="jCAR divIn"><div class="jCAR suppYes divIn" style="display: inline-block; width:48px; height: 16px; margin-top:2px; border: 1px solid #ccc">&nbsp; +</div></div> &mdash; полноценная реализация метода.</li>
+</ul>
 
 <table class="jCAR"><tr>
 	<th></th>
@@ -27,7 +27,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 <th><div class="divIn"><img src="img/iconNodejs.png"/></div><div class="divIn"> Node.js</div></th>
 <th><div class="divIn"><img src="img/iconSafari.png"/></div><div class="divIn"> Safari</div></th>
 <th class="abbr"><div class="divIn"><span class="abbr" title="ver. 12.15"><img src="img/iconOpera.png"/></span></div><div class="divIn"> <span class="abbr" title="ver. 12.15">Opera</span></div></th>
-</tr><tr><td colspan="8"><dl><dt><b>assert(<i>expression[, object, ...]</i>)</b></dt><dd>If false, it displays <i>console.error</i>, else nothing.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>assert(<i>expression[, object, ...]</i>)</b></dt><dd>Если выражение <i>expression</i> ложно, выводит <i>console.error</i>, иначе &mdash; ничего не выводит.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -36,8 +36,8 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/hh772171%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr">&nbsp; <span class="abbr" title="if expression is false, works as console.log">&plusmn;</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>clear()</b></dt><dd>Clears console window.</dd></dl></td>
+	<td class="abbr">&nbsp; <span class="abbr" title="если expression &mdash; false, срабатывает как console.log">&plusmn;</span></td>
+</tr><tr><td colspan="8"><dl><dt><b>clear()</b></dt><dd>Очищает окно консоли.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -47,7 +47,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>count(<i>[object]</i>)</b></dt><dd>It displays the number of passes of a given point code every time. If there is an argument <i>object</i>, it is displayed <i>object.toString() before the counter</i>.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>count(<i>[object]</i>)</b></dt><dd>Каждый раз выводит количество проходов данной точки кода. Если есть аргумент <i>object</i>, то перед значением счётчика выводится <i>object.toString()</i>.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -56,18 +56,18 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/dn265064%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="It ignores the complex objects; does not display a link">&plusmn; ...</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>debug(<i>object[, object, ...]</i>)</b></dt><dd>The equivalent of <i>console.log</i> for compatibility with the old version of the object <i>console</i>, where <i>.debug</i> shows additonal link on the line of code, from which method was called.</dd></dl></td>
+	<td class="abbr"><span class="abbr" title="игнорирует сложные объекты; не выводит ссылку">&plusmn; ...</span></td>
+</tr><tr><td colspan="8"><dl><dt><b>debug(<i>object[, object, ...]</i>)</b></dt><dd>Эквивалент <i>console.log</i> для совместимости со старым вариантом объекта <i>console</i>, когда <i>.debug</i> выводил дополнительно ссылку на строку кода, из которой он был вызван.</dd></dl></td>
 </tr><tr>
-	<td><div class="def2"><i><font class="gray" color=#999999>&nbsp;&nbsp;&nbsp;equals .log()</font></i></div></td>
+	<td><div class="def2"><i><font class="gray" color=#999999>&nbsp;&nbsp;&nbsp;равно .log()</font></i></div></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/dn265066%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="not supports patterns">&plusmn; ...</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>dir(<i>object</i>)</b></dt><dd><i>object</i> it appears as a Javascript-object (for DOM-elements shows all of its attributes and methods). <b>%O</b> works in <i>console.log</i> in Chrome similarly.</dd></dl></td>
+	<td class="abbr"><span class="abbr" title="не поддерживает паттерны">&plusmn; ...</span></td>
+</tr><tr><td colspan="8"><dl><dt><b>dir(<i>object</i>)</b></dt><dd><i>object</i> выводится как Javascript-объект (для DOM-элементов &mdash; все их атрибуты и методы). Похожим образом работает <b>%O</b> в <i>console.log</i> в Chrome.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -76,8 +76,8 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/jj152132%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(9+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr">&nbsp; <span class="suppYes abbr" title="takes more than one argument"><font color=#66dd66>+</font></span></td>
-</tr><tr><td colspan="8"><dl><dt><b>dirxml(<i>object</i>)</b></dt><dd>Outputs XML code of object.</dd></dl></td>
+	<td class="abbr">&nbsp; <span class="suppYes abbr" title="принимает более 1 аргумента"><font color=#66dd66>+</font></span></td>
+</tr><tr><td colspan="8"><dl><dt><b>dirxml(<i>object</i>)</b></dt><dd>Выводится XML-код объекта.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -86,21 +86,21 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/dn265067%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(11+)</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="If objects are not DOM, displays a link to them. Bug when two complex objects">&plusmn; ...</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>error(<i>object[, object, ...]</i>)</b></dt><dd>Sends an error message to the console and <i>console.trace</i> for the position from which it was called (without stopping the execution of the program). Patterns are supports (<b>%s</b>, <b>%d</b> (<b>%i</b>), <b>%f</b>, <b>%o</b>, <b>%O</b>, <b>%c</b>), as in <i>console.log</i>. Example of tracing the call stack (Firefox 31+):<br>
+	<td class="abbr"><span class="abbr" title="если объекты &mdash; не DOM, выводит на них ссылку; баг при 2 сложных объектах">&plusmn; ...</span></td>
+</tr><tr><td colspan="8"><dl><dt><b>error(<i>object[, object, ...]</i>)</b></dt><dd>Выводит ошибку и результат <i>console.trace</i> для места, откуда она была вызвана (не останавливая выполнение программы). Поддерживаются паттерны (<b>%s</b>, <b>%d</b> (<b>%i</b>), <b>%f</b>, <b>%o</b>, <b>%O</b>, <b>%c</b>), как в <i>console.log</i>. Пример с трассировкой стека вызовов (Firefox 31+):<br>
 	<img src="img/console-stack-traces.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="traces, if passed 1 argument exactly">&plusmn; ...</span></td>
-	<td class="abbr">&nbsp; <span class="suppYes abbr" title="tracing (as in console.trace) from version 31"><font color=#66dd66>+</font></span></td>
+	<td class="abbr"><span class="abbr" title="трассирует, если передан ровно 1 аргумент">&plusmn; ...</span></td>
+	<td class="abbr">&nbsp; <span class="suppYes abbr" title="трассировка (как в  console.trace) &mdash; с версии 31"><font color=#66dd66>+</font></span></td>
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/hh772176%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(8+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="not outputs console.trace">&plusmn; ...</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>exception(<i>object[, object, ...]</i>)</b></dt><dd>Equals to <i>.error()</i>.</dd></dl></td>
+	<td class="abbr"><span class="abbr" title="не выводит console.trace">&plusmn; ...</span></td>
+</tr><tr><td colspan="8"><dl><dt><b>exception(<i>object[, object, ...]</i>)</b></dt><dd>Эквивалент <i>.error()</i>.</dd></dl></td>
 </tr><tr>
-	<td><div class="def2"><i><font class="gray" color=#999999>&nbsp;&nbsp;equal .error()</font></i></div></td>
+	<td><div class="def2"><i><font class="gray" color=#999999>&nbsp;&nbsp;равно .error()</font></i></div></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/error"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(28+)</font></td>
@@ -108,7 +108,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>group(<i>object[, object, ...]</i>)</b></dt><dd>Starts Expanded group logs in the console, which can then be roll up manually. Group terminates the command <i>.groupEnd ()</i>. Patterns are supported (see <i>.log()</i>). Sample code and output (from the article «<a target="_blank" href="http://stepansuvorov.com/blog/2013/04/%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D0%B8-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0/">Browser console opportunities</a> (ru)», 2013):<br>
+</tr><tr><td colspan="8"><dl><dt><b>group(<i>object[, object, ...]</i>)</b></dt><dd>Начинает развёрнутую группу записей в консоли, которая вручную затем может сворачиваться. Группа оканчивается командой <i>.groupEnd()</i>. Поддерживаются паттерны (см. <i>.log()</i>). Пример кода и результата (из статьи «<a target="_blank" href="http://stepansuvorov.com/blog/2013/04/%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D0%B8-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0/">Возможности консоли браузера</a>», 2013):<br>
 	<i class="gray">(javascript)</i><br>
 	<div class="highlight highlight-javascript">
 <pre>
@@ -140,22 +140,22 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="can not collapse the group">&plusmn; ...</span></td>
+	<td class="abbr"><span class="abbr" title="свернуть группу нельзя">&plusmn; ...</span></td>
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/dn265068%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(11+)</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(4+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>groupCollapsed(<i>object[, object, ...]</i>)</b></dt><dd>Starts collapsed group of log in the console, which can then unfold manually. Group terminates by command <i>.groupEnd()</i>. Patterns are supported (see <i>.log()</i>).</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>groupCollapsed(<i>object[, object, ...]</i>)</b></dt><dd>Начинает изначально свёрнутую группу записей в консоли, которая вручную затем может разворачиваться. Группа оканчивается командой <i>.groupEnd()</i>. Поддерживаются паттерны (см. <i>.log()</i>).</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="Initially, the group is expanded and anyone can not collapse it (equals to .group())">&plusmn; ...</span> <font class="gray" color=#999999>(9+)</font></td>
+	<td class="abbr"><span class="abbr" title="Изначально группа развёрнута и свернуть нельзя (равносильна .group())">&plusmn; ...</span> <font class="gray" color=#999999>(9+)</font></td>
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/dn265069%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(11+)</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(5.1+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>groupEnd()</b></dt><dd>Indicates the end of the group of log messages that can fold or unfold (except Firefox) manually.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>groupEnd()</b></dt><dd>Обозначает конец группы сообщений лога, которые способны сворачиваться-разворачиваться (кроме Firefox) вручную.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -174,7 +174,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<th><div class="divIn"><img src="img/iconNodejs.png"/></div><div class="divIn"> Node.js</div></th>
 	<th><div class="divIn"><img src="img/iconSafari.png"/></div><div class="divIn"> Safari</div></th>
 	<th class="abbr"><div class="divIn"><span class="abbr" title="ver. 12.15"><img src="img/iconOpera.png"/></span></div><div class="divIn"> <span class="abbr" title="ver. 12.15">Opera</span></div></th>
-</tr><tr><td colspan="8"><dl><dt><b>info(<i>object[, object, ...]</i>)</b></dt><dd>The operation is similar to the <i>.log()</i>, but is made in a different design to distinguish the types of messages, for example, the importance of graduation or for other semantic meaning of this group of messages. Patterns are supported (described in <i>.log()</i>). An example of differences for Firebug, Chrome, IE9:<br>
+</tr><tr><td colspan="8"><dl><dt><b>info(<i>object[, object, ...]</i>)</b></dt><dd>Аналогична <i>.log()</i>, но оформляется в ином дизайне, для различения типов сообщений, например, для градации важности или для иного смыслового значения этой группы сообщений. Поддерживаются паттерны (описаны в <i>.log()</i>). Пример различий для Firebug, Chrome, IE9:<br>
 	<img src="img/consoleMessages.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
@@ -185,16 +185,16 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>log(<i>object[, object, ...]</i>)</b></dt><dd>Displays the arguments in the console, separated by spaces. The most popular command in <i>console</i>.<br>
+</tr><tr><td colspan="8"><dl><dt><b>log(<i>object[, object, ...]</i>)</b></dt><dd>Выводит аргументы в консоль, разделяя пробелами. Самая популярная из команд <i>console</i>.<br>
 	<br>
-	It supports patterns, which are special names in the first argument, indicating that it should be to use as template, in which following arguments will be substituted instead variables of pattern (as in printf() in C, but it is much easier). Examples:<br>
+	Поддерживает паттерны &mdash; специальные имена в первом аргументе, указывающие, что его надо использовать как шаблон, в который будут подставляться следующие аргументы вместо переменных в шаблоне (как в <i>printf()</i> на С, но значительно проще). Примеры:<br>
 	<br>
 	<i class="gray">(javascript)</i><br>
 	<div class="highlight highlight-javascript">
 <pre>
-	console.log('Peter had %d %s', 10,'apples');
-	console.log('Pi is equal to %f', Math.PI);
-	console.log('%cRichard %cOf %cYork%c Gave Battle In Vain',
+	console.log('У Пети было %d %s',10,'яблок');
+	console.log('Пи равно %f',Math.PI);
+	console.log('%cКаждый %cОхотник %cЖелает%c знать, где сидит фазан',
 	    'color:red;','font-size:16px;color:orange;','background:black;color:yellow;',
 	    'font:normal;color:normal;background:normal;');
 	console.log('body as DOM: %o',document.getElementsByTagName('body')[0]);
@@ -203,24 +203,24 @@ This Markdown Page does not display tooltips explaining some features of an appl
 </pre></div>
 	<br>
 
-	Types of patterns and data type to which it converts values:<br>
-	<b>%s</b> &mdash; string.<br>
-	<b>%d</b> or <b>%i</b> &mdash; number.<br>
-	<b>%f</b> &mdash; float number (Firebug supports also).<br>
-	<b>%o</b> &mdash; DOM-element (Firebug outputs as reference to element. Chrome, in addition to references, displays an item in the console. Firefox opens in a modal window by click (all attributes and methods of this object are available)).<br>
-	<b>%O</b> &mdash; JS object (not supported in Firefox; Chrome converts DOM object to JS object for this pattern; Firebug does not distinguish <b>%o</b> and <b>%O</b>).<br>
-	<b>%c</b> &mdash; CSS-style (color, background, font; in Firefox is supported from version 31). Example of stylization by pattern <b>%c</b> (Firefox):<br>
+	Виды паттернов и тип данного, в который преобразуется значение подставляемого аргумента:<br>
+	<b>%s</b> &mdash; строка.<br>
+	<b>%d</b> или <b>%i</b> &mdash;	 число.<br>
+	<b>%f</b> &mdash; число с плавающей точкой (Firebug тоже поддерживает).<br>
+	<b>%o</b> &mdash; DOM-элемент (Firebug выводит как ссылку на элемент. Chrome, кроме ссылки, отображает элемент в консоли. Firefox по клику открывает элемент в модальном окне (доступны все атрибуты и методы этого объекта)).<br>
+	<b>%O</b> &mdash; JS-объект (не поддерживается в Firefox; Chrome преобразует DOM-объект в JS-объект для этого паттерна; Firebug не отличает <b>%o</b> от <b>%O</b>).<br>
+	<b>%c</b> &mdash; CSS-стиль (color, background, font; в Firefox &mdash; c версии 31). Пример стилизации паттерном <b>%c</b> (Firefox):<br>
 	<img src="img/styled-console-logs.png"/></dd></dl></td>
 </tr><tr>
-	<td><div class="def2">&nbsp; &nbsp;<i><font color=#aa6699>(important)</font></i></div></td>
+	<td><div class="def2">&nbsp; &nbsp; <i><font color=#aa6699>(важно)</font></i></div></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="patterns is not supported">&plusmn; ...</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>markTimeline()</b></dt><dd>Synonym of <i>.timeStamp()</i> for Safari, but <i>.timeStamp()</i> is not supported in it, and vice versa.</dd></dl></td>
+	<td class="abbr"><span class="abbr" title="не поддерживает паттерны">&plusmn; ...</span></td>
+</tr><tr><td colspan="8"><dl><dt><b>markTimeline()</b></dt><dd>Аналог <i>.timeStamp()</i> для Safari, но в нём <i>.timeStamp()</i> не поддерживается, и наоборот.</dd></dl></td>
 </tr><tr>
 	<td><div class="def2"><i><font class="gray" color=#999999>&nbsp;=.timeStamp()</font></i></div></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
@@ -230,29 +230,29 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>profile(<i>[label]</i>)</b></dt><dd><a target="_blank" href="https://developer.chrome.com/devtools/docs/console-api#consoleprofile">Starts Javascript-profiler</a>, then shows results under name <i>label</i>.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>profile(<i>[label]</i>)</b></dt><dd><a target="_blank" href="https://developer.chrome.com/devtools/docs/console-api#consoleprofile">Запускает Javascript-профайлер</a>, затем показывает результаты под  именем <i>label</i>.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="it will works if Dev. Tools panel is opened">(devtools)</span></td>
+	<td class="abbr"><span class="abbr" title="будет работать, если открыта панель Dev. Tools">(devtools)</span></td>
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(10+)</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>profileEnd()</b></dt><dd>Turns off Javascript-profiler.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>profileEnd()</b></dt><dd>Выключает Javascript-профайлер.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td class="abbr"><span class="abbr" title="it will works if Dev. Tools panel is opened">(devtools)</span></td>
+	<td class="abbr"><span class="abbr" title="будет работать, если открыта панель Dev. Tools">(devtools)</span></td>
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(10+)</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>table(<i>data[, columns]</i>)</b></dt><dd>The two-dimensional tabular data presented in a tabular format. <i>Data</i> is array or object (or object of objects,  object of arrays), each element of which is a string in the table. The first column of a two-dimensional array will be its index (from 0). Or, if there is an object, the first column would consist of keys of the object. Example in Firefox (object of objects):<br>
+</tr><tr><td colspan="8"><dl><dt><b>table(<i>data[, columns]</i>)</b></dt><dd>Двумерные табличные данные &mdash; в формате таблицы. <i>Data</i> &mdash; массив или объект (или объект из объектов, объект из массивов), каждый элемент которого будет строкой в таблице. Первый столбец двумерного массива будет его индексом (от 0). Или, если это &mdash; объект, первый столбец будет состоять из ключей объекта. Пример из Firefox (объект объектов):<br>
 	<img src="http://habrastorage.org/getpro/habr/post_images/e00/b6b/85d/e00b6b85da16e663e206d18eb9ec5f27.png"/><br>
-	<i>Columns</i> is optional array of names of columns for the table header, if the strings are built from arrays, and we do not want to have the names of numeric codes. Above was an example of the result (Firefox), either obtained from the named column or object of objects. Below we show that it would be from an array of arrays without parameter <i>columns</i>:<br>
+	<i>Columns</i> &mdash; дополнительный массив названий колонок для заголовков таблицы, если строки созданы из массивов, а мы не хотим, чтобы названиями были числовые индексы. Выше &mdash; был пример результата (Firefox), полученного или из именованных колонок, или из объекта объектов. Ниже &mdash; что было бы из массива массивов без параметра <i>columns</i>:<br>
 	<img src="http://habrastorage.org/getpro/habr/post_images/c6a/2ad/93b/c6a2ad93bcd57694a2409fead6374600.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
@@ -263,7 +263,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>time(<i>label</i>)</b></dt><dd>Turns on milliseconds counter with name <i>label</i>.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>time(<i>label</i>)</b></dt><dd>Включает счётчик (миллисекунд) под именем <i>label</i>.</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -272,8 +272,8 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(11+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(4+)</font></td>
-	<td class="abbr">&nbsp; <span class="abbr" title="ignores call without arguments">&plusmn;</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>timeEnd(<i>label</i>)</b></dt><dd>Stops milliseconds counter with name <i>label</i> and outputs result. Example (Chrome):<br>
+	<td class="abbr">&nbsp; <span class="abbr" title="игнорирует вызовы без аргументов">&plusmn;</span></td>
+</tr><tr><td colspan="8"><dl><dt><b>timeEnd(<i>label</i>)</b></dt><dd>Останавливает счётчик (миллисекунд) под именем <i>label</i> и публикует результат под этим именем. Пример (Хром):<br>
 	<img src="img/time-duration.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
@@ -283,8 +283,8 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(11+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(4+)</font></td>
-	<td class="abbr">&nbsp; <span class="abbr" title="ignores call without arguments">&plusmn;</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>timeStamp(<i>[label]</i>)</b></dt><dd>Draws the timestamp on the chart timings script for monitor the dynamics of the behavior of the program. Example (Firebug):<br>
+	<td class="abbr">&nbsp; <span class="abbr" title="игнорирует вызовы без аргументов">&plusmn;</span></td>
+</tr><tr><td colspan="8"><dl><dt><b>timeStamp(<i>[label]</i>)</b></dt><dd>Отрисовывает метки времени на диаграмме таймингов скрипта, что позволяет следить за динамикой поведения программы. Пример (Firebug):<br>
 	<img src="http://habrastorage.org/getpro/habr/post_images/25e/589/78d/25e58978d986761ce31f442896df9c40.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
@@ -294,10 +294,10 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
-	<td class="abbr"><span class="abbr" title="terminates with exception"><font class="suppNo" color=#ff6666>-&#8861;-</font></span></td>
-</tr><tr><td colspan="8"><dl><dt><b>trace()</b></dt><dd>Shows the stack trace of function at the moment of execution (the same that is normally displayed when you stop on the error points). The example in Safari (in sidebar), in Chrome (console):<br>
+	<td class="abbr"><span class="abbr" title="выброс ошибки"><font class="suppNo" color=#ff6666>-&#8861;-</font></span></td>
+</tr><tr><td colspan="8"><dl><dt><b>trace()</b></dt><dd>Показывает стек трассировки функции на данный момент исполнения (то же, что обычно показывается при остановке на месте ошибки). Пример в Safari (в боковой панели), в Хроме (в консоли):<br>
 	<img src="img/safariStackTrace.png" width="288"/> <img src="img/stackTraceConsoleChrome.png"/><br>
-	In Firefox:<br>
+	В Firefox:<br>
 	<img src="img/stackTraceConsoleFirefox.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
@@ -307,8 +307,8 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(11+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(7.0.1+)</font></td>
-	<td class="abbr"><span class="abbr" title="on the edge of correctness">&plusmn; ...</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>warn(<i>object[, object, ...]</i>)</b></dt><dd>Similar to <i>.log()</i> and <i>.info()</i>, but drawn in different design to distinguish the types of messages. Patterns are supported (described in <i>.log()</i>).</dd></dl></td>
+	<td class="abbr"><span class="abbr" title="на грани корректности">&plusmn; ...</span></td>
+</tr><tr><td colspan="8"><dl><dt><b>warn(<i>object[, object, ...]</i>)</b></dt><dd>Аналогична <i>.log()</i> и <i>.info()</i>, но оформляется в ином дизайне, для различения типов сообщений. Поддерживаются паттерны (описаны в <i>.log()</i>).</dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -318,9 +318,9 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>debugger;</b></dt><dd>This operator stops Javascript on the current line. It is equal to a breakpoint in the debug panel. Does not affect the running program except stopping.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>debugger;</b></dt><dd>Останавливает выполнение Javascript на текущей строке. Равносилен установке точки останова (breakpoint) в отладчике. Кроме остановки, никак не отражается на исполняемой программе.</dd></dl></td>
 </tr><tr>
-	<td><i><font class="gray" color=#999999>&nbsp;&nbsp;(operator)</font></i></td>
+	<td><div class="def2"><i><font class="gray" color=#999999>&nbsp;&nbsp;(оператор)</font></i></div></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -328,7 +328,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-</tr><tr><td colspan="8"><dl><dt><b>throw new Error(<i>'mesasge'</i>);</b></dt><dd>It stops Javascript on the current line, interrupting the execution. <i> (This operator is supported by all execution environments of Javascript.)</i></dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>throw new Error(<i>'mesasge'</i>);</b></dt><dd>Останавливает выполнение Javascript на текущей строке, прерывая выполнение. <i>(Поддерживается всеми средами исполнения Javascript.)</i></dd></dl></td>
 </tr><tr>
 	<th></th>
 	<th><div class="divIn"><img src="img/iconChrome.png"/></div><div class="divIn"> <a target="_blank" href="https://developer.chrome.com/devtools/docs/console-api">Chrome</a></div></th>
@@ -339,11 +339,23 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<th><div class="divIn"><img src="img/iconSafari.png"/></div><div class="divIn"> <a target="_blank" href="https://developer.apple.com/library/mac/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Console/Console.html#//apple_ref/doc/uid/TP40007874-CH6-SW3">Safari</a></div></th>
 	<th class="abbr"><div class="divIn"><span class="abbr" title="ver. 12.15"><img src="img/iconOpera.png"/></span></div><div class="divIn"> <span class="abbr" title="ver. 12.15"><a target="_blank" href="http://www.opera.com/dragonfly/documentation/console/">Opera</a></span></div></th>
 </tr></table>
+<h4>Ссылки и исследования оббъекта <i>console</i></h4>
+<ul>
+	<li> 7 links in the last row of table above</li>
+	<li> <a href="jsConsoleApiReference.htm">without anchors</a></li>
+	<li> <a href="jsConsoleApiReference.htm">without anchors</a></li>
+	<li> ...</li>
+</ul>
 
-## References and explorations of *console*
+<i>Данная страница может отображаться в нескольких представлениях. Если открыть её
+<ul>
+	<li>с якорем <a href="jsConsoleApiReference-ru.htm#expand_all">#expand_all</a>, Все описания к методам будут развёрнуты. Если</li>
+	<li> с якорем <a href="jsConsoleApiReference-ru.htm#collapse_max">#collapse_max</a> &mdash; будут максимально свёрнуты (занимать 1 строку таблицы, а не 2).</li>
+	<li><a href="jsConsoleApiReference-ru.htm">Без якорей</a> &mdash; все заголовки с пометками об использовании в средах занимают по 2 строки таблицы.</li>
+	<li>Кроме того, описания можно разворачивать индивидуально, кликами на заголовках, названиях методов.</li>
+</ul></i>
+<br>
+<br>
+<br>&copy; 2015, <a href="https://github.com/spmbt">spmbt</a>
 
-* 7 links in the last row of table above
-* <a href="https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/">... + much more – Firefox Developer Tools Episode 31</a> - console stack traces, styled console logs в Fx31.
-* <a href="https://msdn.microsoft.com/library/gg589530">Using the F12 Tools Console to View Errors and Status</a> (MSDN)
-* <a href="http://habrahabr.ru/post/114483/">Using the console to the full</a> (ru)
-* <a href="http://habrahabr.ru/post/202394/">Javascript debugging with console.table()</a> (ru)
+</body></html>

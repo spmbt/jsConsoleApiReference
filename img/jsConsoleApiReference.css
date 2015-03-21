@@ -1,0 +1,31 @@
+body{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 15px;}
+.divIn{display: inline}
+table.jCAR{
+	width: 800px;
+	margin: 6px 3px 6px 20px;
+	border-collapse: collapse;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 15px;
+}
+table.jCAR td, table.jCAR th{
+	border: 1px solid #ddd;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+table.jCAR td dd,
+table.jCAR tr:nth-child(odd){background-color: #fff}
+table.jCAR tr:nth-child(even){background-color: #f7f7f7}
+table.jCAR th{background-color: #f2f2f2}
+.jCAR td dl dt{width: 100%; cursor: pointer}
+.jCAR td dl dt:hover{background-color: #f4f4f4}
+.jCAR b.def1 i,
+.jCAR td dl dt b i{font-weight: normal; color: #999}
+.jCAR dl{
+	width: 800px;
+	margin: 3px 0}
+.jCAR .divIn, .jCAR.divIn{display: inline}
+.jCAR dd{display: none; margin-top: 3px}
+.jCAR td.abbr, .jCAR th.abbr, .abbr{background-image: url(zebra45.gif);}
+.jCAR span.abbr{border-bottom: 1px dashed #999}
+.jCAR .suppYes{color: #6b6}
+.jCAR .suppNo{color: #f66}
+.jCAR .gray{color: #999}

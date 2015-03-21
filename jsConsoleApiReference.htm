@@ -1,21 +1,23 @@
-# jsConsoleApiReference
-Javascript console api reference is page with functions of console object and descriptions of browser and platform support of its.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>[en] JS Console Api Reference</title>
+	<link rel="stylesheet" href="img/jsConsoleApiReference.css">
+	<script src="img/jsConsoleApiReference.js"></script>
+</head><body>
 
-Localizations of page:
+<h3>Reference of methods for the <i>console</i> object in various browsers and Javascript environments</h3>
 
-* [english](https://github.com/spmbt/jsConsoleApiReference) (this page)
-* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/master/jsConsoleApiReference-ru.md)
-
-
-This Markdown Page does not display tooltips explaining some features of an application in browsers and environments. A full description is found [in HTML page](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm), which, moreover, can minimize some or all of the descriptions.
-
-#### Abbreviations
-
-* <font class="suppNo" color=#ff6666>-&#8861;-</font> &mdash; method is not used in this environment;
-* &plusmn; &mdash; method is used, but implemented with features or partially;
-* `+` &mdash; full implementation.
-
-### Description of the methods and the list of browsers and platforms support
+<li class="jCAR">Github <a href="https://github.com/spmbt/jsConsoleApiReference">jsConsoleApiReference</a> of this; <i class="gray">(latest update: 2015-03-21)</i>.</li>
+<ul>
+	<li><a href="#expand_all" onclick="toggleAll();return!1">Expand description full</a>;</li>
+	<li><a href="#collapse_max" onclick="collapseMax();return!1">Collapse extremely</a>;</li>
+	<li><div class="jCAR divIn abbr" style="display: inline-block; width:48px; height: 16px; margin-top:2px; border: 1px solid #ccc">&nbsp;</div> &mdash; description of the specific use in the tooltip;</li>
+	<li><div class="jCAR divIn"><div class="jCAR suppNo divIn" style="display: inline-block; width:48px; height: 16px; margin-top:2px; line-height: 16px; border: 1px solid #ccc">-&#8861;-</div></div> &mdash; method is not used in this environment;</li>
+	<li><div class="jCAR divIn" style="display: inline-block; width:48px; height: 16px; margin-top:2px; border: 1px solid #ccc">&nbsp; &plusmn;</div> &mdash; method is used, but implemented with features or partially;</li>
+	<li><div class="jCAR divIn"><div class="jCAR suppYes divIn" style="display: inline-block; width:48px; height: 16px; margin-top:2px; border: 1px solid #ccc">&nbsp; +</div></div> &mdash; full implementation of the method.</li>
+</ul>
 
 <table class="jCAR"><tr>
 	<th></th>
@@ -339,11 +341,24 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<th><div class="divIn"><img src="img/iconSafari.png"/></div><div class="divIn"> <a target="_blank" href="https://developer.apple.com/library/mac/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Console/Console.html#//apple_ref/doc/uid/TP40007874-CH6-SW3">Safari</a></div></th>
 	<th class="abbr"><div class="divIn"><span class="abbr" title="ver. 12.15"><img src="img/iconOpera.png"/></span></div><div class="divIn"> <span class="abbr" title="ver. 12.15"><a target="_blank" href="http://www.opera.com/dragonfly/documentation/console/">Opera</a></span></div></th>
 </tr></table>
+<h4>References and explorations of <i>console</i></h4>
+<ul>
+	<li> 7 links in the last row of table above</li>
+	<li> <a href="https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/">... + much more – Firefox Developer Tools Episode 31</a> - console stack traces, styled console logs в Fx31.</li>
+	<li> <a href="https://msdn.microsoft.com/library/gg589530">Using the F12 Tools Console to View Errors and Status</a> (MSDN)</li>
+	<li> <a href="http://habrahabr.ru/post/114483/">Using the console to the full</a> (ru)</li>
+	<li> <a href="http://habrahabr.ru/post/202394/">Javascript debugging with console.table()</a> (ru)</li>
+	<li> ...</li>
+</ul>
+<i> This page can be displayed in multiple views. If you open it
+	<ul>
+		<li> with the anchor <a href="jsConsoleApiReference.htm#expand_all">#expand_all</a>, all descriptions of the methods will be expanded. If</li>
+		<li> with the anchor <a href="jsConsoleApiReference.htm#collapse_max">#collapse_max</a> its will minimized to one row per method, and ...</li>
+		<li> <a href="jsConsoleApiReference.htm">without anchors</a> all titles of descriptions will be placed on whole row and checks in browsers occupied next row of the table.</li>
+		<li> In addition, each description can be expand individually by clicking on the title row with method name.</li>
+	</ul></i>
+<br>
+<br>
+<br> &copy; 2015, <a href="https://github.com/spmbt">spmbt</a>
 
-## References and explorations of *console*
-
-* 7 links in the last row of table above
-* <a href="https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/">... + much more – Firefox Developer Tools Episode 31</a> - console stack traces, styled console logs в Fx31.
-* <a href="https://msdn.microsoft.com/library/gg589530">Using the F12 Tools Console to View Errors and Status</a> (MSDN)
-* <a href="http://habrahabr.ru/post/114483/">Using the console to the full</a> (ru)
-* <a href="http://habrahabr.ru/post/202394/">Javascript debugging with console.table()</a> (ru)
+</body></html>
