@@ -3,8 +3,8 @@
 
 ### Варианты страницы с описанием на других языках:
 
-* [english (английский)](https://github.com/spmbt/jsConsoleApiReference) (`*`.md); &nbsp; &nbsp; [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm) (лучше), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max);
-* [russian (русский)](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md) (эта страница; `*`.md); [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm) (лучше), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max).
+* [english (английский)](https://github.com/spmbt/jsConsoleApiReference) (`*`.md); &nbsp; &nbsp; [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm) (лучше), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#expand_all);
+* [russian (русский)](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md) (эта страница; `*`.md); [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm) (лучше), [свёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max), [развёрнутый](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#expand_all).
 
 Страница в формате Markdown не отображает всплывающие подсказки, поясняющие некоторые особенности реализаций методов в браузерах и средах. Полноценное описание находится [на HTML-странице](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm), которая, к тому же, может сворачивать все или часть описаний.
 
@@ -31,7 +31,7 @@
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/assert"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(28.0+)</font></td>
+	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/assert"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(28+)</font></td>
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/hh772171%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -51,7 +51,7 @@
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/count"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(30.0+)</font></td>
+	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/count"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(30+)</font></td>
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/dn265064%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -258,7 +258,7 @@
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><a target="_blank" href="http://www.softwareishard.com/blog/firebug/tabular-logs-in-firebug/"><font class="suppYes" color=#66dd66>&nbsp; +</font></a></td>
-	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/table"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(34.0+)</font></td>
+	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/table"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(34+)</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
@@ -306,7 +306,7 @@
 	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/trace"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(10+)</font></td>
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(11+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(7.0.1+)</font></td>
+	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(7.01+)</font></td>
 	<td class="abbr"><span class="abbr" title="на грани корректности">&plusmn; ...</span></td>
 </tr><tr><td colspan="8"><dl><dt><b>warn(<i>object[, object, ...]</i>)</b></dt><dd>Аналогична <i>.log()</i> и <i>.info()</i>, но оформляется в ином дизайне, для различения типов сообщений. Поддерживаются паттерны (описаны в <i>.log()</i>).</dd></dl></td>
 </tr><tr>

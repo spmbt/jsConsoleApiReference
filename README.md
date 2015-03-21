@@ -3,8 +3,8 @@ Javascript console api reference is page with functions of console object and de
 
 Localizations of page:
 
-* [english](https://github.com/spmbt/jsConsoleApiReference) (this page;`*`.md); [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm) (better), [collapsed](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max), [expanded](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max);
-* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md); &nbsp; &nbsp; [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm) (better), [collapsed](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max), [expanded](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max).
+* [english](https://github.com/spmbt/jsConsoleApiReference) (this page;`*`.md); [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm) (better), [collapsed](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#collapse_max), [expanded](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm#expand_all);
+* [russian](https://github.com/spmbt/jsConsoleApiReference/blob/gh-pages/jsConsoleApiReference-ru.md); &nbsp; &nbsp; [HTML](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm) (better), [collapsed](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#collapse_max), [expanded](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference-ru.htm#expand_all).
 
 
 This Markdown Page does not display tooltips explaining some features of an application in browsers and environments. A full description is found [in HTML page](http://spmbt.github.io/jsConsoleApiReference/jsConsoleApiReference.htm), which, moreover, can minimize some or all of the descriptions.
@@ -32,7 +32,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/assert"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(28.0+)</font></td>
+	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/assert"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(28+)</font></td>
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/hh772171%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -52,7 +52,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/count"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(30.0+)</font></td>
+	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/count"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(30+)</font></td>
 	<td><a target="_blank" href="https://msdn.microsoft.com/en-us/library/ie/dn265064%28v=vs.85%29.aspx"><font class="suppYes" color=#66dd66>&nbsp; +</font></a></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -258,7 +258,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><a target="_blank" href="http://www.softwareishard.com/blog/firebug/tabular-logs-in-firebug/"><font class="suppYes" color=#66dd66>&nbsp; +</font></a></td>
-	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/table"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(34.0+)</font></td>
+	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/table"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(34+)</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
@@ -306,7 +306,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/trace"><font class="suppYes" color=#66dd66>&nbsp; +</font></a> <font class="gray" color=#999999>(10+)</font></td>
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(11+)</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
-	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(7.0.1+)</font></td>
+	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(7.01+)</font></td>
 	<td class="abbr"><span class="abbr" title="on the edge of correctness">&plusmn; ...</span></td>
 </tr><tr><td colspan="8"><dl><dt><b>warn(<i>object[, object, ...]</i>)</b></dt><dd>Similar to <i>.log()</i> and <i>.info()</i>, but drawn in different design to distinguish the types of messages. Patterns are supported (described in <i>.log()</i>).</dd></dl></td>
 </tr><tr>
@@ -343,12 +343,12 @@ This Markdown Page does not display tooltips explaining some features of an appl
 ## References and explorations of *console*
 
 * 7 links in the last row of table above
-* <a href="https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/">... + much more – Firefox Developer Tools Episode 31</a> - console stack traces, styled console logs в Fx31.
+* <a href="https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/">... + much more – Firefox Developer Tools Episode 31</a> - console stack traces, styled console logs in Fx31.
 * <a href="https://msdn.microsoft.com/library/gg589530">Using the F12 Tools Console to View Errors and Status</a> (MSDN)
 * <a href="http://habrahabr.ru/post/114483/">Using the console to the full</a> (ru)
 * <a href="http://habrahabr.ru/post/202394/">Javascript debugging with console.table()</a> (ru)
 * <a href="http://habrahabr.ru/post/114483/">Using the console to the full</a> (ru)
 * <a href="http://habrahabr.ru/post/202394/">Javascript debugging with console.table()</a> (ru)
-* <a target="_blank" href="http://habrahabr.ru/post/188066/">FireBug* Console API</a> - describes an detail of implementation, seen in tests of browsers 2013 г (ru);
+* <a target="_blank" href="http://habrahabr.ru/post/188066/">FireBug* Console API</a> - describes an detail of implementation, seen in tests of browsers in 2013 (ru);
 * <a target="_blank" href="http://habrahabr.ru/post/198372/">API of console in Javascript</a> (2013; ru).
 * ...
