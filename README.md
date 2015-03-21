@@ -192,14 +192,14 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<i class="gray">(javascript)</i><br>
 	<div class="highlight highlight-javascript">
 <pre>
-	console.log('Peter had %d %s', 10,'apples');
-	console.log('Pi is equal to %f', Math.PI);
-	console.log('%cRichard %cOf %cYork%c Gave Battle In Vain',
-	    'color:red;','font-size:16px;color:orange;','background:black;color:yellow;',
-	    'font:normal;color:normal;background:normal;');
-	console.log('body as DOM: %o',document.getElementsByTagName('body')[0]);
-	console.log('object: %O',{a:1,b:2});
-	console.log('body as Object: %O',document.getElementsByTagName('body')[0]);
+  console.log('Peter had %d %s', 10,'apples');
+  console.log('Pi is equal to %f', Math.PI);
+  console.log('%cRichard %cOf %cYork%c Gave Battle In Vain',
+      'color:red;','font-size:16px;color:orange;','background:black;color:yellow;',
+      'font:normal;color:normal;background:normal;');
+  console.log('body as DOM: %o',document.getElementsByTagName('body')[0]);
+  console.log('object: %O',{a:1,b:2});
+  console.log('body as Object: %O',document.getElementsByTagName('body')[0]);
 </pre></div>
 	<br>
 
