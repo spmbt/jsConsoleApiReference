@@ -3,7 +3,6 @@ Javascript console api reference is page with functions of console object and de
 
 Localizations of page:
 
-* [english](https://github.com/spmbt/jsConsoleApiReference) (this page)
 * [russian](https://github.com/spmbt/jsConsoleApiReference/blob/master/jsConsoleApiReference-ru.md)
 
 *(table formatting is under construction or contribute please)*
@@ -23,4 +22,4 @@ Localizations of page:
 * <a href="http://habrahabr.ru/post/202394/">Продвинутая JavaScript отладка при помощи console.table()</a>
 * <a href="http://habrahabr.ru/post/109046/">Релиз Firebug 1.6</a> (console.table)
 * <a href="https://msdn.microsoft.com/library/gg589530">Using the F12 Tools Console to View Errors and Status</a> (MSDN)
-* <a href="https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/">... + much more – Firefox Developer Tools Episode 31</a> - console stack traces, styled console logs в Fx31.
+* <a href="https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/">... + much more – Firefox Developer Tools Episode 31</a> — console stack traces, styled console logs в Fx31.
