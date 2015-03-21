@@ -24,8 +24,10 @@ table.jCAR th{background-color: #f2f2f2}
 	margin: 3px 0}
 .jCAR .divIn, .jCAR.divIn{display: inline}
 .jCAR dd{display: none; margin-top: 3px}
-.jCAR td.abbr, .jCAR th.abbr, .abbr{background-image: url(zebra45.gif);}
+.jCAR td.abbr, .jCAR th.abbr, .jCAR.abbr{background-image: url(zebra45.gif);}
 .jCAR span.abbr{border-bottom: 1px dashed #999}
 .jCAR .suppYes{color: #6b6}
 .jCAR .suppNo{color: #f66}
 .jCAR .gray{color: #999}
+
+.jCAR .def1{margin-left: 2px;}
