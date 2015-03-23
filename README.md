@@ -135,7 +135,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 </pre></div>
 	<br>
 
-	<img src="http://habrastorage.org/getpro/habr/post_images/b83/848/9be/b838489be648753e7f94d468bac7ac2f.png"/></dd></dl></td>
+	<img src="img/groupLog.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -251,9 +251,9 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 </tr><tr><td colspan="8"><dl><dt><b>table(<i>data[, columns]</i>)</b></dt><dd>The two-dimensional tabular data presented in a tabular format. <i>Data</i> is array or object (or object of objects,  object of arrays), each element of which is a string in the table. The first column of a two-dimensional array will be its index (from 0). Or, if there is an object, the first column would consist of keys of the object. Example in Firefox (object of objects):<br>
-	<img src="http://habrastorage.org/getpro/habr/post_images/e00/b6b/85d/e00b6b85da16e663e206d18eb9ec5f27.png"/><br>
+	<img src="img/tableLog.png"/><br>
 	<i>Columns</i> is optional array of names of columns for the table header, if the strings are built from arrays, and we do not want to have the names of numeric codes. Above was an example of the result (Firefox), either obtained from the named column or object of objects. Below we show that it would be from an array of arrays without parameter <i>columns</i>:<br>
-	<img src="http://habrastorage.org/getpro/habr/post_images/c6a/2ad/93b/c6a2ad93bcd57694a2409fead6374600.png"/></dd></dl></td>
+	<img src="img/tableLogNoHeader.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
@@ -285,7 +285,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppYes" color=#66dd66>+</font> <font class="gray" color=#999999>(4+)</font></td>
 	<td class="abbr">&nbsp; <span class="abbr" title="ignores call without arguments">&plusmn;</span></td>
 </tr><tr><td colspan="8"><dl><dt><b>timeStamp(<i>[label]</i>)</b></dt><dd>Draws the timestamp on the chart timings script for monitor the dynamics of the behavior of the program. Example (Firebug):<br>
-	<img src="http://habrastorage.org/getpro/habr/post_images/25e/589/78d/25e58978d986761ce31f442896df9c40.png"/></dd></dl></td>
+	<img src="img/timestampLog.png"/></dd></dl></td>
 </tr><tr>
 	<td></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>

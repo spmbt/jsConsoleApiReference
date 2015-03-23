@@ -21,7 +21,7 @@ table.jCAR th{background-color: #f2f2f2}
 .jCAR td dl dt b i{font-weight: normal; color: #999}
 .jCAR dl{
 	width: 800px;
-	margin: 3px 0}
+	margin: 3px 0 3px 2px}
 .jCAR .divIn, .jCAR.divIn{display: inline}
 .jCAR dd{display: none; margin-top: 3px}
 .jCAR td.abbr, .jCAR th.abbr, .jCAR.abbr{background-image: url(zebra45.gif);}
