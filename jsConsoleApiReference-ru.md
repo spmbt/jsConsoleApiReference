@@ -351,4 +351,5 @@
 * <a target="_blank" href="http://habrahabr.ru/post/202394/">Продвинутая JavaScript-отладка при помощи <i>console.table()</i></a>;
 * <a target="_blank" href="http://habrahabr.ru/post/188066/">FireBug* Console API</a> - описаны тонкости реализации, замеченные в тестах браузеров 2013 г;
 * <a target="_blank" href="http://habrahabr.ru/post/198372/">API консоли Javascript</a>.
+* <a target="_blank" href="http://www.mitchrobb.com/chromes-console-api-greatest-hits/">Chrome’s Console API: Greatest Hits</a> (2014; en).
 * ...

@@ -352,4 +352,5 @@ This Markdown Page does not display tooltips explaining some features of an appl
 * <a href="http://habrahabr.ru/post/202394/">Javascript debugging with console.table()</a> (ru)
 * <a target="_blank" href="http://habrahabr.ru/post/188066/">FireBug* Console API</a> - describes an detail of implementation, seen in tests of browsers in 2013 (ru);
 * <a target="_blank" href="http://habrahabr.ru/post/198372/">API of console in Javascript</a> (2013; ru).
+* <a target="_blank" href="http://www.mitchrobb.com/chromes-console-api-greatest-hits/">Chrome’s Console API: Greatest Hits</a> (2014; en).
 * ...
