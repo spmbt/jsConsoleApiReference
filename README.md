@@ -57,7 +57,7 @@ This Markdown Page does not display tooltips explaining some features of an appl
 	<td><font class="suppNo" color=#ff6666>-&#8861;-</font></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
 	<td class="abbr"><span class="abbr" title="It ignores the complex objects; does not display a link">&plusmn; ...</span></td>
-</tr><tr><td colspan="8"><dl><dt><b>debug(<i>object[, object, ...]</i>)</b></dt><dd>The equivalent of <i>console.log</i> for compatibility with the old version of the object <i>console</i>, where <i>.debug</i> shows additonal link on the line of code, from which method was called.</dd></dl></td>
+</tr><tr><td colspan="8"><dl><dt><b>debug(<i>object[, object, ...]</i>)</b></dt><dd>The equivalent of <i>console.log</i> for compatibility with the old version of the object <i>console</i>, where <i>.debug</i> shows additional link on the line of code, from which method was called.</dd></dl></td>
 </tr><tr>
 	<td><div class="def2"><i><font class="gray" color=#999999>&nbsp;&nbsp;&nbsp;equals .log()</font></i></div></td>
 	<td><font class="suppYes" color=#66dd66>&nbsp; +</font></td>
